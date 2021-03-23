@@ -1,12 +1,8 @@
-.footer-cr {
-    position: absolute;
-    bottom: 80px;
+.footer-cr {  
     text-align: center;
 }
 
-.footer-name {
-    position: absolute;
-    bottom: 0;
+.footer-name {  
     font-weight: bold;
     color: #333;
     text-align: center;

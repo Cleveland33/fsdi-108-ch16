@@ -9,14 +9,18 @@ class Product extends Component {
         return ( 
             <div className="product">
 
-                <img src="https://i.picsum.photos/id/938/200/300.jpg?hmac=MVXKrDXBUPK5fv_Ev3FTdCFeYf9rvJE2Tz9xynjeelM"></img>
+                <img className="product-image" 
+                src={"/images/products/" + this.props.data.image}>                    
+                </img>
 
-                <label>Product Description here</label>
-
-                <label>$ Total</label>
-                <label>$ Price</label>
+                <label>{this.props.data.title}</label>
+                <br/>
+                <label>Unit Price{this.props.data.price}</label>
+                <br/>
+                <label>$ Total </label>
 
                 <QuantityPicker></QuantityPicker>
+                
             </div>
          );
     }
