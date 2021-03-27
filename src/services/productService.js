@@ -19,7 +19,7 @@ var data = [
     },
     {
       id: "5f40a6baa9e6e22fa1d5fac4",
-      price: 32.00,
+      price: 32.33,
       stock: 20,
       title: "Bell pepper",
       image: "img-14.jpg",
@@ -46,7 +46,7 @@ var data = [
     },
     {
       id: "5f40a866ea0a04e6891b7084",
-      price: 14.00,
+      price: 14.33,
       stock: 14,
       title: "Orange",
       image: "product-10.jpg",
@@ -55,7 +55,7 @@ var data = [
     },
     {
       id: "5f40a866ea0a04e6891212333",
-      price: 12.00,
+      price: 12.33,
       stock: 11,
       title: "Egg",
       image: "img-15.jpg",
@@ -65,7 +65,7 @@ var data = [
     },
     {
       id: "5f40a866ea0a04e68911231328",
-      price: 19.10,
+      price: 19.15,
       stock: 11,
       title: "Orange Juice",
       image: "product-15.jpg",
